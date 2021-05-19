@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Introduction</a></li>
+							<li class="active"><a href="generic.html">Projects</a></li>
+							<li><a href="elements.html">Skills</a></li>
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+					</section>
+					<section>
+						<h1 style="text-align:center;">PROJECTS</h1>
+					</section>
+					<section class="Projects">
+						
+						<article>
+							<header>
+								<!-- <span class="date">April 24, 2017</span> -->
+								<h2 style="text-align:center;"> <a>minSSL:A minimalized library for Self Supervised Learning</a>
+								</h2>
+							</header>
+							<!-- <a class="image fit"><img src="images/minSSL.png" alt="" /></a> -->
+							<li style="text-align:left;">Created the minSSL library to support multiple datasets and multiple downstream tasks typical in Self Supervised Learning by compiling everything in single codebase.</li>
+							<li style="text-align:left;"> Performed extensive testing on Self Supervised techniques like SimCLR and MoCo to test the library functionalities.</li>
+							<ul class="actions special">
+								<li><a href="https://github.com/vsahasrabudhe96/minSSL" class="button">Code Link</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<h2 style="text-align:center;"><a>Stack Overflow Question Tag Predictor</a></h2>
+							</header>
+							<!-- <a class="image fit"><img src="images/stackoverflow.png" alt="" /></a> -->
+							<li style="text-align:left;">Implemented data preprocessing and multi class classification for the Stack Overflow question tag dataset both sequentially and parallely.</li>
+							<li style="text-align:left;">Successfully reduced the execution time for parallel data preprocessing by 53.8\% using PySpark.</li>
+							<ul class="actions special">
+								<li><a href="https://github.com/vsahasrabudhe96/Stack-Overflow-Question-Tag-Predictor" class="button">Code Link</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								
+								<h2 style="text-align:center;"><a>Study of Semantic Segmentation using Deep Learning</a></h2>
+							</header>
+							<!-- <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a> -->
+							<!-- <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p> -->
+							<li style="text-align:left;">Led a team of 4 to develop a custom architecture with squeeze and excitation network for the task of image segmentation based on Google’s DeepLabV3 model.</li>
+							<li style="text-align:left;">Trained the custom model on half of Cityscapes dataset and still achieved mIOU (mean intersection over union) of 57.5, which was a significant improvement over original model trained on entire dataset(mIOU=60.24).</li>
+							<ul class="actions special">
+								<li><a href="https://github.com/SatishKumarAnbalagan/Semantic-Segmentation" class="button">Check it out</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<!-- <span class="date">April 14, 2017</span> -->
+								<h2 style="text-align:center;"><a>Diabetes Detection API</a></h2>
+							</header>
+							<!-- <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a> -->
+							<!-- 
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p> -->
+							<li style="text-align:left;">Built a web application to help people detect diabetes based on parameters like glucose, Blood Pressure, Insulin level on Heroku and AWS EC2 using Flask.</li>
+							<li style="text-align:left;">Cleansed and wrangled data by applying SMOTE sampling to tackle imbalanced classes problem, imputed the missing values, created new features to improve the model performance.</li>
+							<li style="text-align:left;">Evaluated performance and formulated conclusions by analyzing the performance of various prediction models such as Linear Regression, Linear SVM, Kernel SVM, Decision trees, Random Forest classifier and XGBoost classifier.</li>
+							<li style="text-align:left;">Performed cross validation and hyperparameter tuning for each model and achieved accuracy of 93.74\% with XGBoost Classifier.</li>
+							<ul class="actions special">
+								<li><a href="https://diabetes-analysis-api.herokuapp.com/" class="button">Check it out</a></li>
+							</ul>
+						</article>
+						<article>
+							<header>
+								<h2 style="text-align:center;"><a>Neural Machine Translation</a></h2>
+							</header>
+							<!-- <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a> -->
+							<!-- <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p> -->
+							<li style="text-align:left;">Performed tokenization and data cleaning using Keras preprocessing tools.</li>
+							<li style="text-align:left;">Translated text from English to Vietnamese by implementing seq2seq modeling using GRU’s and Encoder-Decoder architecture and achieved a BLEU score of 0.21.</li>
+							<ul class="actions special">
+								<li><a href="https://github.com/vsahasrabudhe96/Neural-Machine-Translation" class="button">Check it out</a></li>
+							</ul>
+						</article>
+						<!-- <article>
+							<header>
+								<span class="date">April 7, 2017</span>
+								<h2><a href="#">Augue lorem<br />
+								primis vestibulum</a></h2>
+							</header>
+							<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">Full Story</a></li>
+							</ul>
+						</article> -->
+					</section>
+
+					</div>
+
+				<!-- Footer -->
+					<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<!-- <section class="alt">
+								<h3>Address</h3>
+								<p>1203 Boylston Street #27<br />
+								Boston, MA 02215</p>
+							</section> -->
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(857) 800-4912</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="https://gmail.com">varunsahasrabudhe96@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+									<li><a href="https://www.linkedin.com/in/varunsahasrabudhe/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/vsahasrabudhe96" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<!-- <div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div> -->
+
+			</div>
+
+
+			<!-- </div> -->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
